@@ -21,7 +21,7 @@ function init() {
 
  
   
-  document.body.addEventListener('keydown', (e) => {
+  document.body.addEventListener('keydown', function brad(e)  {
  const key = e.key;
  
  console.log("key", key)
