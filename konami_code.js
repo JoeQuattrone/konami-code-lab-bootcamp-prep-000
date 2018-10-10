@@ -22,7 +22,7 @@ function init() {
  
   
   document.body.addEventListener('keydown', (e) => {
- const key = e.key;
+ const key = e.which;
  
  console.log("key", key)
  console.log("arrow", arrow[index])
