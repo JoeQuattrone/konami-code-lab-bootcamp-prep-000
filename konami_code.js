@@ -19,11 +19,10 @@ function init() {
 
  var index = 0;
 
- function brad(e)  {
+ function bread(e)  {
  const key = e.key;
  
- console.log("key", key)
- console.log("arrow", arrow[index])
+
   if (key === arrow[index]) {
    index++;
   
@@ -37,7 +36,7 @@ function init() {
      } 
  } 
   
-  document.body.addEventListener('keydown',  brad)  // {
+  document.body.addEventListener('keydown',  bread)  // {
 /* const key = e.key;
  
  console.log("key", key)
