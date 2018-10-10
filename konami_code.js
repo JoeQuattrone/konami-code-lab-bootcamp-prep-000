@@ -19,9 +19,7 @@ function init() {
 
  var index = 0;
 
- 
-  
-  document.body.addEventListener('keydown', function brad(e)  {
+ function brad(e)  {
  const key = e.key;
  
  console.log("key", key)
@@ -37,7 +35,25 @@ function init() {
   }   else {
        index = 0;
      } 
- }); 
+ } 
+  
+  document.body.addEventListener('keydown',  brad)  // {
+/* const key = e.key;
+ 
+ console.log("key", key)
+ console.log("arrow", arrow[index])
+  if (key === arrow[index]) {
+   index++;
+  
+   if (index === arrow.length) {
+     alert("Hurray!")
+     
+     index = 0;
+   }
+  }   else {
+       index = 0;
+     } 
+ });  */
   
 }
 
